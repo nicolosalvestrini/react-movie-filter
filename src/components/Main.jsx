@@ -2,7 +2,7 @@ import CardFilm from "./CardFilm";
 export default function Main({data}) {
   return (
     <div className="container">
-        <ul className="list-unstyled d-flex mr-4 justify-content-center justify-content-between">
+        <ul className="list-unstyled d-flex mr-4 justify-content-center">
             {data.map((movie, index) => (
                 <CardFilm 
                 key={index} 
